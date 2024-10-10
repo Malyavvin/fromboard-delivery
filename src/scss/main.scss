@@ -295,7 +295,7 @@ body{
 }
 
 .rewiews {
-    padding: 70px 0px;
+    padding-bottom: 70px;
 }
 .rewiews__title {
     font-weight: 900;
@@ -410,7 +410,7 @@ body{
 }
 
 
-@media (max-width: 1538px) {
+@media (max-width: 1553px) {
     .container{
         max-width: 1025px;
     }
@@ -421,8 +421,10 @@ body{
     .contacts__text p {
         font-size: 20px;
     }
+
     
     .delivery {
+        padding-top: 40px;
         .flex__row{
             justify-content: center;
         }
@@ -744,17 +746,9 @@ hr{
     margin-top: 90px;
 }
 
-.delivery, .rewiews{
-    padding-top: 40px;
-}
-
 .advantages .adv__row {
     justify-content: center;
     gap: 24px;
-}
-
-.quality{
-    padding-bottom: 0px;
 }
 
     .footer {
